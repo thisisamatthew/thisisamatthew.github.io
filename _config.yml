@@ -3,4 +3,3 @@ title: this is a blog
 permalink: /:title
 paginate: 5
 paginate_path: "/blog/page:num/"
-theme: jekyll-theme-midnight
