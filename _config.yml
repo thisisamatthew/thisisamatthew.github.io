@@ -1,4 +1,5 @@
 name: This is a Blog
+title: This is a Blog
 permalink: /:title
 paginate: 5
 paginate_path: "/blog/page:num/"
