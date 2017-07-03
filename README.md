@@ -1,2 +1,2 @@
-# matrocksteady.github.io
-Testing out a blog using Jekyll and GitHub Pages.
+# This is a Blog
+Building a blog using GitHub Pages + Jekyll.
