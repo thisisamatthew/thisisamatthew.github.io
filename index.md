@@ -4,8 +4,6 @@ layout: default
 
 # this is a blog
 
-## 2header
-
 ### 3 pound sign header
 
 code using < code >: <code>index.md</code>
