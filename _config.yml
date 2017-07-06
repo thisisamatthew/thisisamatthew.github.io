@@ -2,6 +2,8 @@
 title: this is a blog
 tag_text: this is a blog
 font-awesome-include: true # make this false if you don't need font-awesome
+paginate: 5
+paginate-path: "/blog/page:num/"
 
 # Build settings
 markdown: kramdown
