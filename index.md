@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#this is a blog
+# this is a blog
 
 ## A Jekyll template for publishing single-page websites and articles that are incredibly readable and fully responsive
 
