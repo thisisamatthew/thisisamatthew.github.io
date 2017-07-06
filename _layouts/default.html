@@ -16,12 +16,17 @@
   <link rel="canonical" href="{{ site.url }}" />
 </head>
 <body>
-  <article>
-   <div class="container">
-    <h1><a href="./">{{ site.tag_text }}</a></h1>
+  <nav>
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/about">about</a></li>
+      <li><a href="/">rss</a></li>
+      <li><a href="/">blog</a></li>
+    </ul>
+  </nav>
+  <div class="container">
     {{ content }}
-    </div>
-  </article>
+  </div>
 <script src="{{ site.baseurl }}/scripts/rrssb.min.js"></script>
 </body>
 </html>
