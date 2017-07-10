@@ -9,11 +9,17 @@
   <link rel="canonical" href="{{ site.url }}" />
 </head>
 <body>
-  <header class="header">
+  <div id="header">
 	<div class="header-title">
-		<a href="{{ site.url }}">this is a blog</a>
+		<h1>
+			<a href="{{ site.url }}">this is a blog</a>
+		</h1>
 	</div>
-	<nav class="header-nav">
+	<nav>
+		<a href="/about">About</a>
+		<a href="/archive">Archive</a>
+		
+		<!--
 		{% for nav in site.nav %}
 		{% if nav.url contains 'http://' or nav.url contains 'https://' %}
 		    <a href="{{ nav.url }}">{{ nav.name }}</a>
@@ -21,10 +27,11 @@
 		    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
 		{% endif %}
 		{% endfor %}
+		-->
 	</nav>
-</header>
-  <div class="container">
+</div>
+<div class="container">
     {{ content }}
-  </div>
+</div>
 </body>
 </html>
