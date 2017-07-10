@@ -6,31 +6,25 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
-  <!--
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/solo.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
-  {% if site.font-awesome-include %}<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">{% endif %}
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/rrssb.css">
-
-  <script src="{{ site.baseurl }}/scripts/jquery.js"></script>
-  -->
   <link rel="canonical" href="{{ site.url }}" />
 </head>
 <body>
-  <!--
-  <nav>
-    <ul>
-      <li><a href="/">home</a></li>
-      <li><a href="/about">about</a></li>
-      <li><a href="/">rss</a></li>
-      <li><a href="/">blog</a></li>
-    </ul>
-  </nav>
-  -->
+  <header class="header">
+	<div class="header-title">
+		<a href="{{ site.url }}">this is a blog</a>
+	</div>
+	<nav class="header-nav">
+		{% for nav in site.nav %}
+		{% if nav.url contains 'http://' or nav.url contains 'https://' %}
+		    <a href="{{ nav.url }}">{{ nav.name }}</a>
+		{% else %}
+		    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
+		{% endif %}
+		{% endfor %}
+	</nav>
+</header>
   <div class="container">
     {{ content }}
   </div>
-<!-- <script src="{{ site.baseurl }}/scripts/rrssb.min.js"></script> -->
 </body>
 </html>
