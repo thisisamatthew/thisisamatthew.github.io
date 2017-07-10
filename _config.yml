@@ -1,9 +1,17 @@
 # Site settings
 title: this is a blog
 tag_text: this is a blog
-font-awesome-include: true # make this false if you don't need font-awesome
+
+#pagination
 paginate: 5
 paginate-path: "/blog/page:num/"
+
+#navigation
+nav:
+ - name:  "About"
+   url:   "/about"
+ - name:  "Archive"
+   url:   "/archive"
 
 # Build settings
 exclude: ["README.md"]
