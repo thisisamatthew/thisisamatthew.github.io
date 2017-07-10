@@ -1,6 +1,4 @@
-/*----------
-Header
-----------*/
+/*---Header---*/
 .header {
   padding: 2%;
   margin-bottom: 1.5em;
@@ -10,6 +8,7 @@ Header
     font-size: 2.25em;
     line-height: 1.2em;
     font-weight: 600;
+    font-family: 'Helvetica Neue', 'Avenir Next'
 
     a {
       color: $base-color;
