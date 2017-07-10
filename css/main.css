@@ -10,11 +10,28 @@ body {
   word-wrap: break-word;
 }
 
+/* header */
 #header {
   
 }
 
 #header-title {
   
+}
+
+#header-title h1 {
+  
+}
+
+#header-title h1 a,
+#header-title h1 a:active,
+#header-title h1 a:visited {
+    text-decoration: none;
+}
+
+
+/* Post title */
+h2 {
+  text-decoration: none;
 }
   
