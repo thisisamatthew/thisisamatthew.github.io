@@ -7,10 +7,13 @@ title: this is a blog
 		<a href="{{ site.url }}">this is a blog</a>
 	</div>
 	<nav class="header-nav">
-		<ul>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/blog">Archive</a></li>
-    		</ul>
+		{% for nav in site.nav %}
+		{% if nav.url contains 'http://' or nav.url contains 'https://' %}
+		    <a href="{{ nav.url }}">{{ nav.name }}</a>
+		{% else %}
+		    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
+		{% endif %}
+		{% endfor %}
 	</nav>
 </header>
 <ul class="posts">	
