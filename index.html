@@ -35,9 +35,9 @@ layout: default
       <div class="list-post-date">
         <time>{{ post.date | date_to_string }}</time>
       </div>
-      {% if post.content %}
+      {% if post.excerpt %}
       <div class="list-post-desc">
-        {{ post.content }}
+        {{ post.excerpt }}
       </div>
       {% endif %}
     </a>
