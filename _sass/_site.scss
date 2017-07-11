@@ -168,13 +168,19 @@ body {
     }
   }
 
+  &-disqus {
+    margin-top: 4rem;
+  }
+
+}
+
 /*--------------
   Post list
   -------------- */
 
 .list {
   &-post {
-    padding: 2% 2%;
+    padding: 4% 2%;
     
     &:hover {
       background-color: $background-over-color;
@@ -211,7 +217,7 @@ body {
   }
 
   &-pagination {
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     // text-transform: lowercase;
@@ -351,4 +357,21 @@ body {
     }
   }
 }
+
+
+/*--------------
+  Footer
+  -------------- */
+.footer {
+  text-align: center;
+  font-size: .75rem;
+
+  &-link {
+    margin: .2rem;
+
+    a {
+      color: $base-color;
+      margin: 4px;
+    }
+  }
 }
