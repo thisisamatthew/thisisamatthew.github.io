@@ -4,7 +4,6 @@ title: "Test post, please ignore"
 description: "neeed for test"
 date: 2017-07-10
 tags: [test, another test]
-description: test data for test post
 ---
 
 test data
