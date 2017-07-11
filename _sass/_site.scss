@@ -32,7 +32,6 @@ body {
   -------------- */
 .header {
   padding: 2%;
-  margin-top: auto;
   margin-bottom: 1.5em;
 
   &-title {
@@ -75,9 +74,7 @@ body {
 
 .header-small {
   text-align: left;
-  margin-top: auto;
   margin-bottom: .75rem;
-  text-align: center;
   font-size: .75rem;
   font-weight: 600;
 
