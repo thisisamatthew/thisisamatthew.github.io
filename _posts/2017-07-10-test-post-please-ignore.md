@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "test post, please ignore"
+title: "Test post, please ignore"
 description: "neeed for test"
 date: 2017-07-10
 tags: [test]
