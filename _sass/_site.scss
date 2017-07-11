@@ -167,11 +167,6 @@ body {
       }
     }
   }
-
-  &-disqus {
-    margin-top: 4rem;
-  }
-
 }
 
 /*--------------
@@ -354,24 +349,6 @@ body {
         font-size: .75rem;
         text-transform: uppercase;
       }
-    }
-  }
-}
-
-
-/*--------------
-  Footer
-  -------------- */
-.footer {
-  text-align: center;
-  font-size: .75rem;
-
-  &-link {
-    margin: .2rem;
-
-    a {
-      color: $base-color;
-      margin: 4px;
     }
   }
 }
