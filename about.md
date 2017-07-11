@@ -3,9 +3,6 @@ title: About
 permalink: /about/
 ---
 
-Bathe in my water.  
-Finding strength in  
-vulnerability.  
+Bathe in my water.   
 Massaging the fictions  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(self-mythology)  
 into truth.
