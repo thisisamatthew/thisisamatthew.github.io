@@ -7,5 +7,5 @@ Bathe in my water.
 Finding strength in  
 vulnerability.  
 Massaging the fictions  
-              (self-mythology)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(self-mythology)  
 into truth.
