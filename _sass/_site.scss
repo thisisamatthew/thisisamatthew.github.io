@@ -34,6 +34,7 @@ body {
 .header {
   padding-bottom: 2%;
   margin-bottom: 1.5em;
+  text-align: left;
 
   &-title {
     margin: 0.3em 0;
@@ -74,7 +75,7 @@ body {
 }
 
 .header-small {
-
+  text-align: left;
   margin-bottom: .75rem;
   font-size: .75rem;
   font-weight: 600;
