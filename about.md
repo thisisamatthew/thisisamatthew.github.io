@@ -4,5 +4,5 @@ permalink: /about/
 ---
 
 Bathe in my water.   
-Massaging the fictions  
-into truth.
+Massaging fictions  
+toward truth.
