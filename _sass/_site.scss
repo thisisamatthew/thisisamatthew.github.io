@@ -168,19 +168,13 @@ body {
     }
   }
 
-  &-disqus {
-    margin-top: 4rem;
-  }
-
-}
-
 /*--------------
   Post list
   -------------- */
 
 .list {
   &-post {
-    padding: 4% 2%;
+    padding: 2% 2%;
     
     &:hover {
       background-color: $background-over-color;
@@ -217,7 +211,7 @@ body {
   }
 
   &-pagination {
-    margin-top: 4rem;
+    margin-top: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     // text-transform: lowercase;
@@ -354,24 +348,6 @@ body {
         font-size: .75rem;
         text-transform: uppercase;
       }
-    }
-  }
-}
-
-
-/*--------------
-  Footer
-  -------------- */
-.footer {
-  text-align: center;
-  font-size: .75rem;
-
-  &-link {
-    margin: .2rem;
-
-    a {
-      color: $base-color;
-      margin: 4px;
     }
   }
 }
