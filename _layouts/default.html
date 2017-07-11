@@ -2,7 +2,6 @@
 <html lang="en">
 {% include head.html %}
 <body>
-  <div class="content-container">
       <header class="header">
         <div class="header-title">
           <a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}</a>
@@ -16,7 +15,8 @@
             {% endif %}
             {% endfor %}
           </nav>
-</header>
+      </header>
+  <div class="content-container">
     {{ content }}
   </div>
 </body>
