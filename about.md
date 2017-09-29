@@ -3,4 +3,4 @@ title: About
 permalink: /about/
 ---
 
-Finding my voice again.
+Working through some stuff.
