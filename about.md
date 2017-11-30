@@ -3,4 +3,4 @@ title: About
 permalink: /about/
 ---
 
-Working through some stuff.
+Exploring who I was, who I am, and who I want to be.
