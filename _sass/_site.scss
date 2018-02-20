@@ -108,6 +108,7 @@ body {
   Post
   -------------- */
 .post {
+  padding: 2%;
 
   &-title {
     margin-top: 0rem;
@@ -173,7 +174,7 @@ body {
 
 .list {
   &-post {
-    /* padding: 2% 2%; */
+    padding: 2%;
     
     &:hover {
       background-color: $background-over-color;
