@@ -8,8 +8,6 @@ html {
   font-family: $base-font;
   font-size: $base-font-size;
   line-height: 1.6;
-  overflow-x: hidden;
-  margin-right: calc(-1 * (100vw - 100%));
 }
 
 html,
@@ -22,6 +20,7 @@ body {
   max-width: 48rem;
   padding: 5rem 1rem;
   margin: auto;
+  padding-left: calc(100vw - 100%)
 
   @media (max-width: 48rem){
     padding: 2rem 1.3rem;
