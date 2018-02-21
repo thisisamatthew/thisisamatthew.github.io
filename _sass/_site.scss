@@ -17,6 +17,7 @@ body {
 }
 
 .content-container {
+  min-width: 48rem;
   max-width: 48rem;
   padding: 5rem 1rem;
   margin: auto;
@@ -323,7 +324,7 @@ body {
 .archive {
   &-list {
     &-post {
-      /*padding: 0.1rem*/;
+      /*padding: 0.1rem*/
 
       &:hover {
           background-color: $background-over-color;
