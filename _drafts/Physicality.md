@@ -1,5 +1,4 @@
-The cracks in a spine tell their own story where each fissure becomes a part of the cartography of reading as a physical experience. The first crevice screaming into existence the passion of an unquenched reader begging the page to swallow them whole as they tear through each sheet.
-
+The cracks in a spine tell their own story where each fissure becomes a part of the cartography of reading. The first crevice screaming into existence the passion of an unquenched reader begging the page to swallow them whole as they tear through each sheet.
 
 
 
