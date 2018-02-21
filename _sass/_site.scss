@@ -8,16 +8,13 @@ html {
   font-family: $base-font;
   font-size: $base-font-size;
   line-height: 1.6;
+  overflow-y: overlay;
 }
 
 html,
 body {
   margin: auto;
   padding: auto;
-}
-
-body {
-  overflow-y: overlay;
 }
 
 .content-container {
