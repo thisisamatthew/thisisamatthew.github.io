@@ -14,10 +14,10 @@ html,
 body {
   margin: auto;
   padding: auto;
+  min-width: 100%;
 }
 
 .content-container {
-  min-width: 48rem;
   max-width: 48rem;
   padding: 5rem 1rem;
   margin: auto;
