@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Fresh Sheets"
 date: 2018-02-21 15:00:00 -0500
 ---
