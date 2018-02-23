@@ -12,26 +12,17 @@ layout: default
     <a href="{{ post.link }}">
     {% else %}
     <a href="{{ post.url | prepend: site.baseurl }}">
-    {% endif %}
-
-      {% if tag == 'micro' %}
-        <div class="list-post-title"></div>
-          <div class="list-post-desc">
-            {{ post.content }}
-          </div>
-          <div class="list-post-date">
-            <time>{{ post.date | date_to_string }}</time>
-          </div>
-      {% else % }
-        <div class="list-post-title">
-          {{ post.title }}
-        </div>
-        <div class="list-post-date">
-          <time>{{ post.date | date_to_string }}</time>
-        </div>
-          <div class="list-post-desc">
-            {{ post.excerpt }}
-          </div>
+    {% endif %}  
+      <div class="list-post-title">
+        {{ post.title }}
+      </div>
+      <div class="list-post-date">
+        <time>{{ post.date | date_to_string }}</time>
+      </div>
+      {% if post.excerpt %}
+      <div class="list-post-desc">
+        {{ post.excerpt }}
+      </div>
       {% endif %}
     </a>
   </div>
