@@ -13,10 +13,15 @@ layout: default
     {% else %}
     <a href="{{ post.url | prepend: site.baseurl }}">
     {% endif %}
-    
-    {% for tag in post.tags %}
+
       {% if tag == 'micro' %}
         <div class="list-post-title"></div>
+          <div class="list-post-desc">
+            {{ post.content }}
+          </div>
+          <div class="list-post-date">
+            <time>{{ post.date | date_to_string }}</time>
+          </div>
       {% else % }
         <div class="list-post-title">
           {{ post.title }}
@@ -24,13 +29,10 @@ layout: default
         <div class="list-post-date">
           <time>{{ post.date | date_to_string }}</time>
         </div>
-        {% if post.excerpt %}
           <div class="list-post-desc">
             {{ post.excerpt }}
           </div>
-        {% endif %}
       {% endif %}
-    {% endfor %}
     </a>
   </div>
 {% endfor %}
