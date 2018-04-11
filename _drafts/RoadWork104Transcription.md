@@ -1,4 +1,5 @@
 https://overcast.fm/+FCH-Q_KXw
+
 35:25-42:548
 
 Courtliness is a whole other can of worms. There is a lot of presumption right now that gendered relationships are founded on principles of inequality, but relationships with people that are sexually interested in one another have always been complicated. They are not bicameral. There is nothing simple about them. You cannot reduce them to any simple formula of dominance and submission, power and weakness.
