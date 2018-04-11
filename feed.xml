@@ -8,13 +8,16 @@ layout: null
     <link>{{ site.url }}{{ site.baseurl }}</link>
     <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.posts %}
-      <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
-      </item>
+      {% for tag in post.tags %}
+        {% if tag == 'post' %}
+          <item>
+            <description>{{ post.content | xml_escape }}</description>
+            <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+            <link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
+            <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
+          </item>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   </channel>
 </rss>
