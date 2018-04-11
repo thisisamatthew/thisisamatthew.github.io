@@ -1,4 +1,7 @@
-Courtliness is a whole other can of worms. There is a lot of presumption right now that gendered relationship are founded on principles of inequality, but relationships with people that are sexually interested in one another have always been complicated. They are not bicameral. There is nothing simple about them. You cannot reduce them to any simple formula of dominance and submission, power and weakness.
+https://overcast.fm/+FCH-Q_KXw
+35:25-42:548
+
+Courtliness is a whole other can of worms. There is a lot of presumption right now that gendered relationships are founded on principles of inequality, but relationships with people that are sexually interested in one another have always been complicated. They are not bicameral. There is nothing simple about them. You cannot reduce them to any simple formula of dominance and submission, power and weakness.
 
 Any two people who are sexually interested in each other have to hammer out a new treaty and every single little clause of that treaty has to be reinvented. There just isn't any boilerplate. Not if both parties are alive. I'm sure there are all kinds of people that com etogether in couplings that are just out of some manual they read, but even those.	
 
