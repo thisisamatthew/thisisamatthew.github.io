@@ -1,4 +1,9 @@
-# Every Single Minute
+---
+layout: post
+title: "Every Single Minute"
+date: 2018-04-10 15:58:00 -0500
+tags: [post]
+---
 
 Twenty-four hours per day, seven days per week, I have a timer running that describes what I am doing. I have found this helps keep myself accountable for what I spend my time on because any time I start or stop doing something, I have to consciously mark it down. That moment forces me to confront what I am doing and ask myself if I will look back on that activity and the amount of time I spent on it and feel good about myself.
  
