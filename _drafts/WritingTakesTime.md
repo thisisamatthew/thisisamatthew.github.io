@@ -1,1 +1,0 @@
-I forgot how long it takes to write and edit. Feeling rusty.
