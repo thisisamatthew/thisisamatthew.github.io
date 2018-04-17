@@ -58,3 +58,6 @@ gems:
   - jekyll-admin
 
 exclude:            [vendor]
+
+plugins:
+  - jekyll-mentions
