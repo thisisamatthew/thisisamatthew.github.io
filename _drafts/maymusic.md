@@ -8,6 +8,8 @@ Where the appeal of *Threads* is its brooding, synthy pop-punk riffs and KC Dala
 Pale Waves - "Television Romance"
 Its an easy sell to compare Pale Waves to labelmates The 1975, which absolutely is true in all its '80s inspired indie-pop glory. "Telvision Romance" definitely sits in that funky, poppy, throwback-but-its-not-a-
 
+Pale Waves strenght lies in their relatiolnsihp with subversion -- looking like the Cure and launching into groovy, '80s-inspired pop tunes that slur their way through slurry hooks and gloomy lyrics about the boredom of parties and mediocre partners.
+
 Christine and the Queens - "Tilted"
 Arcade High - "Phone Lines"
 Oneohtrix Point Never - "Sticky Drama"
