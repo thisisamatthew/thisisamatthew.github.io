@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Raindrops"
-date: 2018-08-010 04:32:00 -0500
+date: 2018-08-10 16:32:00 -0500
 tags: [post]
 ---
 
