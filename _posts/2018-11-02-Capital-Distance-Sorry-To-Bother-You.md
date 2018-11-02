@@ -5,6 +5,8 @@ date: 2018-11-02 14:17:00 -0500
 tags: [post]
 ---
 
+*This post contains major spoilers for the movie 'Sorry to Bother You' from sentence one, so please stop reading now if you don't want the movie spoiled for you.*
+
 *Sorry to Bother You's* twist reveals that WorryFree CEO Steve Lift is transforming workers into horse-human hybrids because it will make them "stronger, more obedient, more durable, and therefore, more efficient and profitable." This quote comes from a promotional video WorryFree has put together to pitch the idea and Lift is showing it to protagonist Cassius Green in an attempt to calm him down after discovering the equisapiens and convince him to become one himself for $100 million. In this scene, the movie's central political critique is laid bare: Capitalism breeds a worldview that believes efficiency, obedience, and profit are intrinsically moral principles.
 
 Lift tells Cassius he wants to show him the video to prove he isn't "doing this for no reason" and that the idea—which, to reiterate, is performing gene modification on humans to turn them into half-horses—"isn't irrational." When Cassius pushes back and asks in a horrified voice if he's doing this "so you can make more money," Lift's response is a flippant "Yeah, basically." To Lift, needing any more justification beyond profit is the absurd idea being presented. He couldn't possibly conceive of any further rationale needed because profit is the ultimate moral good in his eyes.
