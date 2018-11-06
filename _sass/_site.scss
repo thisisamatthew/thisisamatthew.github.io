@@ -177,18 +177,18 @@ body {
   &-post {
     /* padding: 2%; */
     
-    &:hover {
+    /* &:hover {
       background-color: $background-over-color;
       border-color: transparent;
-    }
+    } */
 
     a {
       color: $base-color;
 
-      &:hover,
+      /* &:hover,
       &:focus {
         text-decoration: none;
-      }
+      } */
     }
 
     &-title {
