@@ -185,10 +185,10 @@ body {
     a {
       color: $base-color;
 
-      &:hover,
+      /* &:hover,
       &:focus {
         text-decoration: none;
-      }
+      } */
     }
 
     &-title {
