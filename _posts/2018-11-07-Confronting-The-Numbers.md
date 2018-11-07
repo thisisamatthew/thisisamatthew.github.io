@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Confronting The Numbers"
-date: 2018-11-06 15:54:00 -0500
+date: 2018-11-07 16:43:00 -0500
 tags: [post]
 ---
 
