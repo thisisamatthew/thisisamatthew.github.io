@@ -5,7 +5,7 @@ date: 2018-11-07 16:43:00 -0500
 tags: [post]
 ---
 
-Back in April, [I wrote](http://thisisa.blog/Every-Single-Minute) about how I track my entire life using [Toggl](https://www.toggl.com). I've continued to keep up with it, and with a full 10 months of data, I feel like I have enough to discuss the breakdown, how it's helped me, and where I'm headd with it going forward.
+Back in April, [I wrote](http://thisisa.blog/Every-Single-Minute) about how I track my entire life using [Toggl](https://www.toggl.com). I've continued to keep up with it, and with a full 10 months of data, I feel like I have enough to discuss the breakdown, how it's helped me, and where I'm headed with it going forward.
 
 To start, let's get the numbers up on the board. Looking at January through the end of October, I have tracked 7231 hours. Here's the breakdown with some highlights pointed out.
 
