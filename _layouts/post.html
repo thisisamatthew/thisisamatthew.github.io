@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% for post %}
 <div class="post">
   {% if post.link %}
         <div class="post-title">
@@ -24,3 +25,4 @@ layout: default
   </div>
   {{ content }}
 </div>
+{% endfor %}
