@@ -124,7 +124,11 @@ body {
     color: #868e96;
     font-size: .75rem;
     text-transform: uppercase;
+
+    &-perma {
+      color: $base-lighten-color
     }
+  }
 
    &-tag {
     margin-bottom: 1rem;
