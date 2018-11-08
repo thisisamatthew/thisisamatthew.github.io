@@ -20,9 +20,9 @@ layout: default
         {% endif %}
         
         <div class="list-post-date">
-            <time class="list-post-upper">{{ post.date | date_to_string }}</time>
+            <time class="list-post-date">{{ post.date | date_to_string }}</time>
             {% if post.link %}
-            <a href="{{ post.url | prepend: site.baseurl }}" class="permalink">
+            <a href="{{ post.url | prepend: site.baseurl }}">
                          &bull; Permalink
             </a>
             {% endif %}
