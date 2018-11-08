@@ -3,26 +3,28 @@ layout: default
 ---
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <div class="list-post">
-    {% if post.link %}
-    <a href="{{ post.link }}"> <span class="link-arrow"> &rarr;</span>
-    {% else %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-    {% endif %}  
-      <div class="list-post-title">
-        {{ post.title }}
-      </div>
-      <div class="list-post-date">
-        <time>{{ post.date | date_to_string }}</time>
-      </div>
-      {% if post.content %}
-      <div class="list-post-desc">
-        {{ post.content }}
-      </div>
-      {% endif %}
-    </a>
+    <div class="list-post">
+        {% if post.link %}
+            <a href="{{ post.link }}"> <span class="link-arrow"> &rarr;</span> </a>
+        {% else %}
+            <a href="{{ post.url | prepend: site.baseurl }}"></a>
+        {% endif %}  
+    
+        <div class="list-post-title">
+            {{ post.title }}
+        </div>
+        <div class="list-post-date">
+            <time>{{ post.date | date_to_string }}</time>
+        </div>
+    
+    {% if post.content %}
+        <div class="list-post-desc">
+            {{ post.content }}
+        </div>
+    {% endif %}
   </div>
 {% endfor %}
+
   <!-- Pagination links -->
   <div class="list-pagination">
     <span class="list-pagination-previous">
