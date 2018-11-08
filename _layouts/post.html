@@ -1,11 +1,10 @@
 ---
 layout: default
 ---
-{% for post in site.posts %}
 <div class="post">
   {% if post.link %}
         <div class="post-title">
-          <a href="{{ post.link }}" class="post-title">
+          <a href="{{ page.link }}" class="post-title">
             {{ post.title }} &raquo;
           </a>
         </div>
@@ -25,4 +24,3 @@ layout: default
   </div>
   {{ content }}
 </div>
-{% endfor %}
