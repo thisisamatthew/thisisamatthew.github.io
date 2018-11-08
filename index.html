@@ -5,9 +5,22 @@ layout: default
 {% for post in paginator.posts %}
     <div class="list-post">
         {% if post.link %}
-            <a href="{{ post.link }}"> <span class="link-arrow"> &rarr;</span> </a>
+            <a href="{{ post.link }}">
+                <div class="list-post-title">
+                    {{ post.title }} 
+                    <span class="link-arrow"> 
+                        <a href="{{ post.url | prepend: site.baseurl }}">
+                            &rarr;
+                        </a>
+                    </span>
+                </div>
+            </a>
         {% else %}
-            <a href="{{ post.url | prepend: site.baseurl }}"></a>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <div class="list-post-title">
+                    {{ post.title }}
+                </div>
+            </a>
         {% endif %}  
     
         <div class="list-post-title">
