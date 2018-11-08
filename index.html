@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
     <div class="list-post">
         {% if post.link %}
@@ -10,7 +9,7 @@ layout: default
                     {{ post.title }} 
                     <span class="link-arrow"> 
                         <a href="{{ post.url | prepend: site.baseurl }}">
-                            &rarr;
+                            &raquo;
                         </a>
                     </span>
                 </div>
@@ -25,6 +24,14 @@ layout: default
         
         <div class="list-post-date">
             <time>{{ post.date | date_to_string }}</time>
+            {% if post.link %}
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                     <span class="permalink">
+                         &#x2712; Permalink
+                     </span>
+            </a>
+            {% endif %}
+                                            
         </div>
     
     {% if post.content %}
