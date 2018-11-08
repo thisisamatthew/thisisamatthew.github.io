@@ -4,12 +4,9 @@ layout: default
 {% for post in paginator.posts %}
     <div class="list-post">
         {% if post.link %}
-            <a href="{{ post.link }}">
+            <a href="{{ post.link }}" class="list-post-title">
                 <div class="list-post-title">
-                    {{ post.title }} 
-                    <span class="link-arrow"> 
-                        <a href="{{ post.url | prepend: site.baseurl }}">
-                            &raquo;
+                    {{ post.title }} &raquo;
                         </a>
                     </span>
                 </div>
