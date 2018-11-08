@@ -248,9 +248,10 @@ body {
   }
 }
 
-.line {
-    padding-bottom: 2%;
+hr {
+    display: block;
     height: 1px;
+    border: 0;
     color: $base-color;
     background-color: $base-color;
     width: 50%;
