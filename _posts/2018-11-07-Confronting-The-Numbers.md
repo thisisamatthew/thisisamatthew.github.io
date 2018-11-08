@@ -9,7 +9,7 @@ Back in April, [I wrote](http://thisisa.blog/Every-Single-Minute) about how I tr
 
 To start, let's get the numbers up on the board. Looking at January through the end of October, I have tracked 7231 hours. Here's the breakdown with some highlights pointed out.
 
-## The Numbers
+### The Numbers
 
 * 2400 hours on Entertainment
 	* 366 hours browsing the internet
@@ -44,7 +44,7 @@ Smudging the math a little bit for ease of use, it breaks down to a week that, o
 
 There are 168 hours in a week and the above add up to 166 hours I have accounted for. Not too bad. I'd probably say the other 2 hours go to fitness and personal projects, which I didn't account into the math because they were such small numbers.
 
-## The Breakdown
+### The Breakdown
 
 So let's dig into this but first, a caveat: These numbers aren't literal or scientific and aren't meant to be. They're a general overview of where I've reported my time to be. The easiest way to explain it is the "sleeping" project: that's not my actual time *literally asleep* the way a sleep tracking app would attempt to figure out. I hit the timer when I lay down and turn the lights off, but it doesn't account for the amount of time it takes me to fall asleep. It's the same with all of these. Other activities or "dual activities" happen ("Watching" a movie while out with friends is almost always under the "Socializing" task, not the "Watching" task). I'm trying to answer the question "What action am I taking at this moment?" and then report that to myself.
 
@@ -64,13 +64,13 @@ Onto the bad news. 2018 has been a year where I didn't take care of myself or mo
 
 I also didn't really work on my personal projects this year. I still want to write my own notational velocity clone for Windows, which I've made exactly zero progress on. I didn't write any music. I didn't even think about trying to podcast. Lots of zeroes on my report card on this front. I did start this blog, though. It's been slow going, but I'm feeling a bit of momentum lately. I'll call it a win even if I'm just hitting double-digit posts on here at the time of writing. I'm starting to have and jot down more ideas on a regular basis and that's inspiring me to keep going. I also must admit that a lot of my writing is done during down time at work--including this very post--and I rarely switch my timer for that, so there is definitely missing data here. I still haven't written a lot, but it's a start. 
 
-## How It's Helped Me
+### How It's Helped Me
 
 Having data brings me clarity. I trust it. I'm skeptical of data in a vacuum or used as an ideology, but my process-oriented, planner brain craves it. Digging through these reports has made me be honest with myself because I have faith in the numbers. I'm *not* happy about all of these numbers and sharing them is scary. Who wants to tell people they've spent 800 hours playing video games this year? Not me. But it is the undeniable truth of who I am, and all I can do is work with that and put effort into changing the numbers and continuing to be honest with myself about them as the months go on. So just having access to all this data in a digestible format has been helpful in and of itself.
 
 I get a weekly report email from Toggl with my numbers from the previous seven days and it's been a helpful nudge to reflect on last week's choices in a concrete way that resonates with me. I definitely found myself reacting to the numbers every week and changing my behavior based on it. Sometimes I let myself slag off and not care when I saw "45 hours" on my video game line item, but most of the time I took a second to figure out what suffered because of that and being forced to confront it every week has been a really helpful tool for me.
 
-## Concrete Goals
+### Concrete Goals
 
 Knowing there's work to do, I wanted to publicly document a few things I want to commit to changing over the next year:
 
@@ -80,6 +80,6 @@ Knowing there's work to do, I wanted to publicly document a few things I want to
     * This goal is mainly about stopping my consumption of fast food and replacing the majority of my meals with food I cooked myself.
 
 
-## Looking Forward
+### Looking Forward
 
 I'm honestly really happy with the process side of things that I have stood up. I feel like my categories are pretty solid once I work out the kinks with the "Maintenance" task and Toggl's iOS 12's Shortcuts are going to make this easier than ever to handle. From here, it's all about continuing to keep at it and put more focus on having an active mindset each and every day about changing the numbers to be where I want them to be.
