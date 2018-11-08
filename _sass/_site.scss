@@ -123,6 +123,8 @@ body {
     margin-bottom: 1rem;
     color: #868e96;
     font-size: .75rem;
+  }
+  &-upper {
     text-transform: uppercase;
   }
 
@@ -202,8 +204,10 @@ body {
     &-date {
       color: $base-lighten-color;
       font-size: .75rem;
-      text-transform: uppercase;
       margin-bottom: 1rem;
+    }
+    &-upper {
+      text-transform: uppercase;
     }
 
     &-desc {
