@@ -1,20 +1,16 @@
 ---
 layout: default
 ---
-<div class="list">
-{% if site.posts.size == 0 %}		
-<h2>No post found</h2>		
-{% else %}
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <div class="list-post">
     {% if post.link %}
-    <a href="{{ post.link }}">
+    <a href="{{ post.link }}"> <span class="link-arrow"> &rarr;</span>
     {% else %}
     <a href="{{ post.url | prepend: site.baseurl }}">
     {% endif %}  
       <div class="list-post-title">
-        {{ post.title }} {{% if post.link %}} <span class="link-arrow"> &rarr;</span> {{% end if %} 
+        {{ post.title }}
       </div>
       <div class="list-post-date">
         <time>{{ post.date | date_to_string }}</time>
