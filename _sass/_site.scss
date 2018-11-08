@@ -217,7 +217,7 @@ body {
     margin-top: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    // text-transform: lowercase;
+    text-transform: lowercase;
 
     &-previous {
       float: left;
@@ -250,8 +250,8 @@ body {
 
 .line {
     padding-bottom: 2%;
-    border: 0.5px;
-    color: solid black;
+    border: 1px;
+    color: $base-lighten-color;
     width: 50%
 }
 
