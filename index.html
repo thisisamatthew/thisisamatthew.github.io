@@ -15,17 +15,17 @@ layout: default
                 </div>
             </a>
         {% else %}
+        <div class="list-post-title">
             <a href="{{ post.url | prepend: site.baseurl }}">
-                <div class="list-post-title">
                     {{ post.title }}
-                </div>
             </a>
+        </div>
         {% endif %}
         
         <div class="list-post-date">
             <time class="list-post-upper">{{ post.date | date_to_string }}</time>
             {% if post.link %}
-            <a href="{{ post.url | prepend: site.baseurl }}">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="permalink">
                          &bull; Permalink
             </a>
             {% endif %}
