@@ -2,9 +2,24 @@
 layout: default
 ---
 <div class="post">
+    {% if post.link %}
+    <a href="{{ post.link }}" class="post-title">
+        <div class="post-title">
+            {{ post.title }} &raquo;
+                </a>
+            </span>
+        </div>
+    </a>
+{% else %}
   <div class="post-title">{{ page.title }}</div>
+{% endif %}
   <div class="post-date">
     <time class="post-date">{{ page.date | date_to_string }}</time>
+    {% if post.link %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
+                 &bull; Permalink
+    </a>
+    {% endif %}
   </div>
   {{ content }}
 </div>
