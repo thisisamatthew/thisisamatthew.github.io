@@ -14,7 +14,7 @@ layout: default
     <a href="{{ post.url | prepend: site.baseurl }}">
     {% endif %}  
       <div class="list-post-title">
-        {{ post.title }}
+        {{ post.title }} {{% if post.link %}} <span class="link-arrow"> &rarr;</span> {{% end if %} 
       </div>
       <div class="list-post-date">
         <time>{{ post.date | date_to_string }}</time>
