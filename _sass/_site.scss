@@ -120,6 +120,10 @@ body {
     font-weight: 600;
   }
 
+  &-url {
+    color: $base-color;
+  }
+
   &-date {
     margin-bottom: 1rem;
     color: #868e96;
