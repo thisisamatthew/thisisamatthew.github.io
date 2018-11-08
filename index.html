@@ -26,8 +26,8 @@ layout: default
             <time>{{ post.date | date_to_string }}</time>
             {% if post.link %}
             <a href="{{ post.url | prepend: site.baseurl }}">
-                     <span class="permalink">
-                         &#x2712; Permalink
+                     <span>
+                         &bull; Permalink
                      </span>
             </a>
             {% endif %}
