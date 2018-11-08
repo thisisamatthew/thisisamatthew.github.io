@@ -22,19 +22,19 @@ layout: default
         <div class="list-post-date">
             <time class="list-post-date">{{ post.date | date_to_string }}</time>
             {% if post.link %}
-            <a href="{{ post.url | prepend: site.baseurl }}" class="list-post-perma">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="list-post-title">
                          &bull; Permalink
             </a>
             {% endif %}
                                             
         </div>
     
-    {% if post.content %}
-        <div class="list-post-desc">
-            {{ post.content }}
-        </div>
-    {% endif %}
-  </div>
+        {% if post.content %}
+            <div class="list-post-desc">
+                {{ post.content }}
+            </div>
+        {% endif %}
+    </div>
   <hr/>
   <div class="bottom-space"></div>
 {% endfor %}
