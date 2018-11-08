@@ -22,7 +22,7 @@ layout: default
         <div class="list-post-date">
             <time class="list-post-date">{{ post.date | date_to_string }}</time>
             {% if post.link %}
-            <a href="{{ post.url | prepend: site.baseurl }}" class="list-post-title">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="list-post-perma">
                          &bull; Permalink
             </a>
             {% endif %}
