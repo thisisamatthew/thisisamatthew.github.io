@@ -20,14 +20,19 @@ Create a file named youtubePlayer.html in the _includes folder and put this code
 
 And then in a post, you do something like this:
 ```
+{% raw %}
 {% include youtubePlayer.html id=page.youtubeId %}
+{% endraw %}
 ```
 
 If you use page.youtubeId, be sure to include youtubeid in the frontmatter of your post, as that's where it would come from. You could also just hardcode the youtube video's id into that code. It would look something like this:
 
 ```
+{% raw %}
 {% include youtubePlayer.html id=4EU7vvSvV-0 %}
+{% endraw %}
 ```
+
 For a Spotify embed, it's similar, but will have to break out based on what you're sharing. There's a difference in the html between sharing a song, album, or playlist and each would require their own setup. I have mine as three different files in _includes: spotifyAlbumPlayer.html, spotifySongPlayer.html, and spotifyPlaylist.html. Here's what they look like:
 
 YouTube Video:
