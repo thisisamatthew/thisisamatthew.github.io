@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "How to Embed YouTube or Spotify on a GitHub Pages Blog"
+title: "How to Embed YouTube on a GitHub Pages Blog"
 date: 2018-11-09 14:45:00 -0500
 tags: [post]
 ---
 
-As I've been piecing this place together and learning how Jekyll works, I realized I could not figure out how to embed media from across the web, mainly YouTube videos or Spotify songs, albums, and playlists. After a bit of fiddling, I figured out the easiest way was to create standalone files in the _includes folder and then call an include tag on a post when I need to embed something.
+As I've been piecing this place together and learning how Jekyll works, I realized I could not figure out how to embed media from across the web, mainly YouTube videos. After a bit of fiddling, I figured out the easiest way was to create standalone files in the _includes folder and then call an include tag on a post when I need to embed something.
 
 First, create a file named youtubePlayer.html in the _includes folder and put this code in there:
 
@@ -33,7 +33,5 @@ With the above syntax, include "youtubeid: ###" in the frontmatter of your post,
 {% endraw %}
 ```
 
-For a Spotify embed, it's similar, but will have to break out based on what you're sharing. There's a difference in the html between sharing a song, album, or playlist and each would require their own setup. I have mine as three different files in _includes: spotifyAlbumPlayer.html, spotifySongPlayer.html, and spotifyPlaylist.html. Here's what they look like:
-
-YouTube Video:
+### Example
 {% include youtubePlayer.html id="4EU7vvSvV-0" %}
