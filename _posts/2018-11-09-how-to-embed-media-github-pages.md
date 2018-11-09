@@ -37,3 +37,6 @@ For a Spotify embed, it's similar, but will have to break out based on what you'
 
 YouTube Video:
 {% include youtubePlayer.html id="4EU7vvSvV-0" %}
+
+Spotify Album:
+{% include spotifyAlbumPlayer.html id="3BiM8prxKzqm3wERpy9Fvn" %}
