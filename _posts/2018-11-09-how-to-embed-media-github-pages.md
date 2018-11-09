@@ -35,8 +35,5 @@ With the above syntax, include "youtubeid: ###" in the frontmatter of your post,
 
 For a Spotify embed, it's similar, but will have to break out based on what you're sharing. There's a difference in the html between sharing a song, album, or playlist and each would require their own setup. I have mine as three different files in _includes: spotifyAlbumPlayer.html, spotifySongPlayer.html, and spotifyPlaylist.html. Here's what they look like:
 
-YouTube Video:
-{% include youtubePlayer.html id="4EU7vvSvV-0" %}
-
 Spotify Album:
 {% include spotifyAlbumPlayer.html id="3BiM8prxKzqm3wERpy9Fvn" %}
