@@ -1,0 +1,11 @@
+<div class="embed-spotify">
+    <iframe src="https://open.spotify.com/embed/track/{{ include.id }}}" 
+        width="300" 
+        height="380" 
+        frameborder="0" 
+        allowtransparency="true" 
+        allow="encrypted-media">
+    </iframe>
+</div>
+<!-- to use this, put {% include spotifySongPlayer.html id=page.spotifyId %} in the post 
+     id= could be the id itself from the spotify embed code or a variable defined in the frontmatter. -->

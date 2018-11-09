@@ -1,4 +1,12 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
+<div class="embed-youtube">
+    <iframe
+        src="https://www.youtube.com/embed/{{ include.id }}"
+        width="560"
+        height="315"  
+        frameborder="0" 
+        allowfullscreen>
+    </iframe>
+</div>
 
 <!-- to use this, put {% include youtubePlayer.html id=page.youtubeId %} in the post 
-    id= could be the id itself from the youtube page or any variable that points to a youtube video's id. -->
+     id= could be the id itself from the youtube page or a variable defined in the frontmatter. -->
