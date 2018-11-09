@@ -41,7 +41,7 @@ With the above syntax, include "youtubeId: ###" in the frontmatter of your post,
 
 The above will get you rolling, but I would recommend one more thing: wrap your youtubePlay.html document in a <div> with a class name (I called mine embed-youtube) and give it this CSS so that the video will properly scale with the device:
 
-```CSS
+```css
 .embed {
   &-youtube {
     position: relative;
