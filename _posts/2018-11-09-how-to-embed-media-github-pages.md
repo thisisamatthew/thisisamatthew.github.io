@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Embed YouTube or Spotify on a GitHub Pages Blog"
-date: 2018-11-09 16:43:00 -0500
+date: 2018-11-09 14:45:00 -0500
 tags: [post]
 ---
 
