@@ -182,15 +182,14 @@ body {
   Post Media Embedding
   --------------*/
 
-.embed {
-  &-youtube {
+.embed-youtube {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
   }
 
-  &-youtube iframe {
+.embed-youtube iframe {
     position: absolute;
     top: 0;
     left: 0;
