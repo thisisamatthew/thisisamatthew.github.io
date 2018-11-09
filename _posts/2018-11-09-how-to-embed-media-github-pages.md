@@ -39,4 +39,4 @@ YouTube Video:
 {% include youtubePlayer.html id="4EU7vvSvV-0" %}
 
 Spotify Album:
-{% include spotifyAlbumPlayer.html id="spotify&#58;album&#58;3BiM8prxKzqm3wERpy9Fvn" %}
+{% include spotifyAlbumPlayer.html id="spotify%3Atrack%3A1lNvvqTxIG5CFyQ4zVfoaZ" %}
