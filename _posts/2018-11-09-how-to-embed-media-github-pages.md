@@ -28,8 +28,3 @@ If you use page.youtubeId, be sure to include youtubeid in the frontmatter of yo
 {% include youtubePlayer.html id=4EU7vvSvV-0 %}
 ```
 
-Examples:
-
-Youtube Video:
-{% include youtubePlayer.html id=4EU7vvSvV-0 %}
-
