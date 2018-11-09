@@ -25,7 +25,7 @@ And then in a post, you do something like this:
 {% endraw %}
 ```
 
-With the above syntax, include "youtubeid: ###" in the frontmatter of your post, as that's where it would pull the variable from. You could also just hardcode the youtube video's id into the above code snippet like this:
+With the above syntax, include "youtubeId: ###" in the frontmatter of your post, as that's where it would pull the variable from. You could also just hardcode the youtube video's id into the above code snippet like this:
 
 ```
 {% raw %}
