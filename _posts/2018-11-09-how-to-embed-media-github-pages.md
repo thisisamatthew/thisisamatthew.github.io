@@ -28,24 +28,8 @@ If you use page.youtubeId, be sure to include youtubeid in the frontmatter of yo
 {% include youtubePlayer.html id=4EU7vvSvV-0 %}
 ```
 
-For a Spotify embed, it's similar, but will have to break out based on what you're sharing. There's a difference in the html between sharing a song, album, or playlist and each would require their own setup. I have mine as three different files in _includes: spotifyAlbumPlayer.html, spotifySongPlayer.html, and spotifyPlaylist.html. Here's what they look like:
-
-
-
-
-
-
 Examples:
 
 Youtube Video:
 {% include youtubePlayer.html id=4EU7vvSvV-0 %}
-
-Spotify Album:
-{% include spotifyAlbumPlayer.html id=3BiM8prxKzqm3wERpy9Fvn %}
-
-Spotify Song:
-{% include spotifySongPlayer.html id=1lNvvqTxIG5CFyQ4zVfoaZ %}
-
-Spotify Playlist:
-{% include spotifyPlaylistPlayer.html id=3V9Ndh1badVfBXnv3niDgE %}
 
