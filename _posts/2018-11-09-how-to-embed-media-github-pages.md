@@ -56,5 +56,4 @@ The above will get you rolling, but I would recommend one more thing: wrap your 
     width: 100%;
     height: 100%;
   }
-}
 ```
