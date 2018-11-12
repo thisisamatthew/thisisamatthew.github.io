@@ -213,14 +213,14 @@ body {
   max-width: 100%;
 }
 
-.embed-spotify-album {
+.embed-spotify-list {
   width: 300px;
   height: 310px;
   position: relative;
   max-width: 100%;
 }
 
-.embed-spotify-album iframe, .embed-spotify object, .embed-spotify embed {
+.embed-spotify-list iframe, .embed-spotify object, .embed-spotify embed {
   position: absolute;
   width: 300px;
   height: 310px;

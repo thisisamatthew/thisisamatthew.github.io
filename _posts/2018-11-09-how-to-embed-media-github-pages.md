@@ -62,8 +62,62 @@ The above will get you rolling, but I would recommend one more thing: wrap your 
 
 ### Spotify
 
-This operates on the same principles as above, but is a little more complicated because of the different types of media you can share. I broke this out into three separate files, one for sharing songs, one for albums, and one for playlists.
+This operates on the same principles as above, but is a little more complicated because of the different types of media you can share and how that changes the URL. I broke this out into three separate files: one for sharing songs, one for albums, and one for playlists each called spotifySong.html, spotifyAlbum.html, and spotifyPlaylist.html, respectively. You'll also need to include the CSS I provide below. It's needed to solidfy the embeds to look right, so don't skip it. 
 
+In each of the files, put the following:
+
+spotifySong.html
+```html
+<div class="embed-spotify-song">
+    <iframe src="https://open.spotify.com/embed/track/{{ include.id }}"  
+        frameborder="0" 
+        allowtransparency="true" 
+        allow="encrypted-media">
+    </iframe>
+</div>
+```
+
+spotifyAlbum.html
+```html
+<div class="embed-spotify-list">
+    <iframe src="https://open.spotify.com/embed/album/{{ include.id }}" 
+        frameborder="0" 
+        allowtransparency="true" 
+        allow="encrypted-media">
+    </iframe>
+</div>
+```
+
+spotifyPlaylist.html
+```html
+<div class="embed-spotify-list">
+    <iframe src="https://open.spotify.com/embed/user/spotify/playlist/{{ include.id }}" 
+        frameborder="0" 
+        allowtransparency="true" 
+        allow="encrypted-media">
+    </iframe>
+</div>
+```
+
+The main difference here is the source URL, which splits out what you're embedding. Once you have this set up, like the YouTube link above, you'll use something like the following in the post you want to embed a Spotify link into:
+
+```
+{% raw %}
+{% include spotifySong.html id=page.spotifyId %}
+{% endraw %}
+```
+
+And again, like the above, you'll need to include "spotifyId: ###" in the frontmatter if you use the syntax above or hardcode it and do this:
+
+```
+{% raw %}
+{% include spotifySong.html id="3V9Ndh1badVfBXnv3niDgE" %}
+{% endraw %}
+```
+
+Here is what they look like:
+
+Song:
 {% include spotifySong.html id="4IFGbY5w97f6FvZNqNfsYb" %}
 
 Album:
@@ -73,3 +127,43 @@ Album:
 Playlist:
 
 {% include spotifyPlaylist.html id="3V9Ndh1badVfBXnv3niDgE" %}
+
+Now, for the CSS.
+
+```
+.embed-spotify-song {
+  width: 300px;
+  height: 80px;
+  position: relative;
+  max-width: 100%;
+}
+
+.embed-spotify-song iframe, .embed-spotify object, .embed-spotify embed {
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+}
+
+.embed-spotify-list {
+  width: 300px;
+  height: 310px;
+  position: relative;
+  max-width: 100%;
+}
+
+.embed-spotify-list iframe, .embed-spotify object, .embed-spotify embed {
+  position: absolute;
+  width: 300px;
+  height: 310px;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+}
+```
+
+Using this will give the embeds proper positioning and make sure everything shows up right. You can tweak the width/height to your liking, but I selected ones that I thought looked best and then used max-width to make sure there was no overflow. You could also use "margin: auto;" to center them if you'd like.
+
+With all that out of the way, you should now be able to embed videos and music with no problem going forward.
