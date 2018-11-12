@@ -26,7 +26,7 @@ When you make a post and want to include the embed, call this in your markdown f
 {% endraw %}
 ```
 
-With the above syntax, include "youtubeId: $foo," where $foo is the youtube video's id, in the frontmatter of your post. You can hardcode the youtube video's id into the snippet like this:
+With the above syntax, include "youtubeId: $foo," where $foo is the youtube video's id, in the frontmatter of your post. You can also choose to hardcode the youtube video's id into the snippet like this:
 
 ```
 {% raw %}
@@ -77,7 +77,7 @@ spotifySong.html
 spotifyAlbum.html
 ```html
 <div class="embed-spotify-list">
-    <iframe src="https://open.spotify.com/embed/album/{{ include.id }}" 
+    <iframe src="https://open.spotify.com/embed/album/{% raw %}{{ include.id }}{% endraw %} 
         frameborder="0" 
         allowtransparency="true" 
         allow="encrypted-media">
@@ -88,7 +88,7 @@ spotifyAlbum.html
 spotifyPlaylist.html
 ```html
 <div class="embed-spotify-list">
-    <iframe src="https://open.spotify.com/embed/user/spotify/playlist/{{ include.id }}" 
+    <iframe src="https://open.spotify.com/embed/user/spotify/playlist/{% raw %}{{ include.id }}{% endraw %}" 
         frameborder="0" 
         allowtransparency="true" 
         allow="encrypted-media">
