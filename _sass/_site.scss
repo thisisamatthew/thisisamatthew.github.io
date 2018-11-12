@@ -202,11 +202,12 @@ body {
   height: 0;
   margin: auto;
   max-width: 100%;
-  padding-bottom: 100%;
 }
 
 .embed-spotify-song iframe, .embed-spotify object, .embed-spotify embed {
   position: absolute;
+  width: 300px;
+  height: 80px;
   top: 0;
   left: 0;
   max-width: 100%;
@@ -222,10 +223,11 @@ body {
 
 .embed-spotify-album iframe, .embed-spotify object, .embed-spotify embed {
   position: absolute;
+  width: 300px;
+  height: 310px;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
 }
 
 /*--------------
