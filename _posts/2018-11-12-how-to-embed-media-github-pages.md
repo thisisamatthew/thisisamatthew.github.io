@@ -128,7 +128,7 @@ Playlist:
 
 Now, for the CSS. Unlike the YouTube embed, this provides core functionality for the embed to display properly, so be sure to include this.
 
-```
+```css
 .embed-spotify-song {
   width: 300px;
   height: 80px;
