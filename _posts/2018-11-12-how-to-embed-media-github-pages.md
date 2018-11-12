@@ -66,7 +66,7 @@ In each of the files, put the following:
 spotifySong.html
 ```html
 <div class="embed-spotify-song">
-    <iframe src="https://open.spotify.com/embed/track/{{ include.id }}"  
+    <iframe src="https://open.spotify.com/embed/track/{% raw %}{{ include.id }}{% endraw %}"  
         frameborder="0" 
         allowtransparency="true" 
         allow="encrypted-media">
