@@ -125,7 +125,8 @@ Playlist:
 
 {% include spotifyPlaylist.html id="3V9Ndh1badVfBXnv3niDgE" %}
 
-Now, for the CSS.
+
+Now, for the CSS. Unlike the YouTube embed, this provides core functionality for the embed to display properly, so be sure to include this.
 
 ```
 .embed-spotify-song {
@@ -161,6 +162,4 @@ Now, for the CSS.
 }
 ```
 
-Using this will give the embeds proper positioning and make sure everything shows up right. You can tweak the width/height to your liking, but I selected ones that I thought looked best and then used max-width to make sure there was no overflow. You could also use "margin: auto;" to center them if you'd like.
-
-With all that out of the way, you should now be able to embed videos and music with no problem going forward.
+You can tweak the width/height to your liking, but I selected ones that I thought looked best and then used max-width to make sure there was no overflow. You could also use "margin: auto;" to center them if you'd like. With all that out of the way, you should now be able to embed videos and music with no problem going forward.
