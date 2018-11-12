@@ -61,3 +61,5 @@ The above will get you rolling, but I would recommend one more thing: wrap your 
 ## Spotify
 
 {% include spotifySong.html id="4IFGbY5w97f6FvZNqNfsYb" %}
+
+{% include spotifyAlbum.html id="3BiM8prxKzqm3wERpy9Fvn" %}
