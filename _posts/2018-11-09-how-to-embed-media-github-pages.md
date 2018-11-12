@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "How to Embed YouTube on a GitHub Pages Blog"
+title: "How to Embed YouTube and Spotify on a GitHub Pages Blog"
 date: 2018-11-09 14:45:00 -0500
 tags: [post]
 ---
 
-As I've been piecing this place together and learning how Jekyll works, I realized I could not figure out how to embed media from across the web, mainly YouTube videos. After a bit of fiddling, I figured out the easiest way was to create standalone files in the _includes folder and then call an include tag on a post when I need to embed something.
+As I've been piecing this place together and learning how Jekyll works, I realized I could not figure out how to embed media from across the web, mainly YouTube videos and Spotify songs, albums, or playlists. After a bit of fiddling, I figured out the easiest way was to create standalone files in the _includes folder and then call an include tag on a post when I need to embed something. Here's how to it:
+
+### YouTube
 
 First, create a file named youtubePlayer.html in the _includes folder and put this code in there:
 
@@ -18,26 +20,26 @@ First, create a file named youtubePlayer.html in the _includes folder and put th
 </iframe>
 ```
 
-And then in a post, you do something like this:
+When you make a post and want to include the embed, call this in your markdown file:
 ```
 {% raw %}
 {% include youtubePlayer.html id=page.youtubeId %}
 {% endraw %}
 ```
 
-With the above syntax, include "youtubeId: ###" in the frontmatter of your post, as that's where it would pull the variable from. You could also just hardcode the youtube video's id into the above code snippet like this:
+With the above syntax, include "youtubeId: ###" in the frontmatter of your post, as that's where it would pull the variable from. You could also just hardcode the youtube video's id into the snippet like this:
 
 ```
 {% raw %}
 {% include youtubePlayer.html id="4EU7vvSvV-0" %}
 {% endraw %}
 ```
+I plan to do it the second way. Here's an example of it in action:
 
-### Example
 {% include youtubePlayer.html id="4EU7vvSvV-0" %}
 
 
-### Extra Credit CSS
+#### Extra Credit CSS
 
 The above will get you rolling, but I would recommend one more thing: wrap your youtubePlay.html document in a <div> with a class name (I called mine embed-youtube) and give it this CSS so that the video will properly scale with the device:
 
@@ -58,10 +60,16 @@ The above will get you rolling, but I would recommend one more thing: wrap your 
   }
 ```
 
-## Spotify
+### Spotify
+
+This operates on the same principles as above, but is a little more complicated because of the different types of media you can share. I broke this out into three separate files, one for sharing songs, one for albums, and one for playlists.
 
 {% include spotifySong.html id="4IFGbY5w97f6FvZNqNfsYb" %}
 
-and now an album:
+Album:
 
 {% include spotifyAlbum.html id="3BiM8prxKzqm3wERpy9Fvn" %}
+
+Playlist:
+
+{% include spotifyPlaylist.html id="3V9Ndh1badVfBXnv3niDgE" %}
