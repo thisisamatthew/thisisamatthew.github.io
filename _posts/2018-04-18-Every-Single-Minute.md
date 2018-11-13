@@ -54,8 +54,6 @@ As I'm not tracking business the way the app is classically built for, I keep my
 #### Work
 * Working
 
----
-
 ### A couple of details:
 * I don't break out any sub-entries at work right now, which is why it's just "Work/Working." I'm more concerned with the productivity and details of my free time than my day job right now. I intend to revisit this in the future, but for now just knowing the hours I'm at work is enough.
 * If any personal project/hobby gets off the ground (for instance, this blog), I intend to break it out into its own project. For example, all writing for this space goes under "writing," but that is mainly meant to refer to my handwritten journaling, so if this blog becomes more of a regular project, I'll break it out into its own. Same if I were to more actively spend time writing a [new](https://thisisdoxa.bandcamp.com/) [album](https://matisanavocado.bandcamp.com), I'd create a project for that band.
@@ -63,8 +61,6 @@ As I'm not tracking business the way the app is classically built for, I keep my
 * I'm finding myself wanting more details from my "maintenance" timers when I look back at reports, so I may make it its own project and give it sub tasks like Home, Body, After Work or something like that and swap out things like Showering and put them under there. Most of my maintenance sort of falls in line with loading, so I think I need to re-evaluate what this means and be more specific so I know what that really is accounting for.
 * Food is for all food-related things as I didn't want to break out cooking vs. eating vs. out to eat.
 * Toggl doesn't support multiple timers at once, so if activities overlap, I will prioritize the one I want more detail about long term. For example, socializing takes priority over what I am doing during that time, so I'll keep my "Socializing" timer running instead of flipping to a "Watching" timer if we go to the movies. I don't consider this a restriction of the app's capabilities. Life is full of multitasking, but part of what I'm trying to get out of this is seeing what I consider a priority, so this helps me better focus and have a clear 24-hours of data on each day. Giving yourself clear standards on what you prioritize for tracking during an overlap is really helpful to not have paralysis about not tracking "right."
-
----
 
 Getting started can be easy from a mechanical perspective: make an account, create some projects, and you're off to the races. The harder part is keeping with it.  There's definitely a mental overhead to remember to switch timers and create your own standards for what to track. I still forgets sometimes! There's no trick to it, but slowly building up what you track and when is a nice way to ease your way into it. I also have learned to lean on other things to retrace my steps to when I change activities like my last "I'm here" text message to someone if I accidentally left my "Driving" timer on after arrivign at a social event. Going whole hog from zero to 24 hours is a quick way to feel overwhelmed. I have also found that tracking every moment of my life can feel...clinical. It's at odds with my softer side that wants the human experience to feel less rigid. Quantifying everything doesn't always feel good, so pick a level of detail that makes you feel comfortable with your own humanity.
 
