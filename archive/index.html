@@ -9,18 +9,18 @@ title: ""
   {% endif %}
 
   {% for post in site.posts %}
-      {% if tag == 'post' %}
-        <div class="archive-list-post">
-          <a href="{{ post.url | prepend: site.baseurl }}">  
-            <span class="archive-list-post-title">
-              {{ post.title }}
-            </span>
-            <span class="archive-list-post-date">
-              <time>| {{ post.date | date_to_string }}</time>
-            </span>
-          </a>
-        </div> 
-      {% endif %}
+    {% if tag == 'post' %}
+      <div class="archive-list-post">
+        <a href="{{ post.url | prepend: site.baseurl }}">  
+          <span class="archive-list-post-title">
+            {{ post.title }}
+          </span>
+          <span class="archive-list-post-date">
+            <time>| {{ post.date | date_to_string }}</time>
+          </span>
+        </a>
+      </div> 
+    {% endif %}
   {% endfor %}
   </div>
 </div>
