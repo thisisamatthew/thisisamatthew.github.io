@@ -11,18 +11,18 @@ title: ""
       {% for tag in post.tags %}
         {% if tag == 'post' %}
           <div class="archive-list-post">
-              <a href="{{ post.url | prepend: site.baseurl }}">
-        {% endif %}  
-          <span class="archive-list-post-title">
-            {{ post.title }}
-          </span>
-          <span class="archive-list-post-date">
-            <time>| {{ post.date | date_to_string }}</time>
-          </span>
-        </a>
-      </div>
+            <a href="{{ post.url | prepend: site.baseurl }}">  
+              <span class="archive-list-post-title">
+                {{ post.title }}
+              </span>
+              <span class="archive-list-post-date">
+                <time>| {{ post.date | date_to_string }}</time>
+              </span>
+            </a>
+          </div> 
+        {% endif %}
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
   {% endif %}
   </div>
 </div>
