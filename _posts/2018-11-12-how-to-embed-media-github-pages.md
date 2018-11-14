@@ -26,7 +26,7 @@ When you make a post and want to include the embed, call this in your markdown f
 {% endraw %}
 ```
 
-With the above syntax, include "youtubeId: $foo," where $foo is the youtube video's id, in the frontmatter of your post. You can hardcode the youtube video's id into the snippet like this:
+With the above syntax, include "youtubeId: $foo," where $foo is the youtube video's id, in the frontmatter of your post. You can also choose to hardcode the youtube video's id into the snippet like this:
 
 ```
 {% raw %}
@@ -59,14 +59,14 @@ The above will get you rolling, but I would recommend one more thing: wrap your 
 ```
 
 ### Spotify
-This operates on the same principles as above, but is a little more complicated because of the different types of media you can share and how that changes the URL. I broke this out into three separate files: one for sharing songs, one for albums, and one for playlists each called spotifySong.html, spotifyAlbum.html, and spotifyPlaylist.html, respectively. You'll also need to include the CSS I provide below. It's needed to solidfy the embeds to look right, so don't skip it. 
+This operates on the same principles as above, but is a little more complicated because of the different types of media you can share and how that changes the URL. I broke this out into three separate files: one for sharing songs, one for albums, and one for playlists each called spotifySong.html, spotifyAlbum.html, and spotifyPlaylist.html, respectively. You'll also need to include the CSS I provide below. The embeds don't look right without it, so don't skip it. 
 
 In each of the files, put the following:
 
 spotifySong.html
 ```html
 <div class="embed-spotify-song">
-    <iframe src="https://open.spotify.com/embed/track/{{ include.id }}"  
+    <iframe src="https://open.spotify.com/embed/track/{% raw %}{{ include.id }}{% endraw %}"  
         frameborder="0" 
         allowtransparency="true" 
         allow="encrypted-media">
@@ -77,7 +77,7 @@ spotifySong.html
 spotifyAlbum.html
 ```html
 <div class="embed-spotify-list">
-    <iframe src="https://open.spotify.com/embed/album/{{ include.id }}" 
+    <iframe src="https://open.spotify.com/embed/album/{% raw %}{{ include.id }}{% endraw %} 
         frameborder="0" 
         allowtransparency="true" 
         allow="encrypted-media">
@@ -88,7 +88,7 @@ spotifyAlbum.html
 spotifyPlaylist.html
 ```html
 <div class="embed-spotify-list">
-    <iframe src="https://open.spotify.com/embed/user/spotify/playlist/{{ include.id }}" 
+    <iframe src="https://open.spotify.com/embed/user/spotify/playlist/{% raw %}{{ include.id }}{% endraw %}" 
         frameborder="0" 
         allowtransparency="true" 
         allow="encrypted-media">
@@ -112,7 +112,7 @@ And again, like the above, you'll need to include "spotifyId: ###" in the frontm
 {% endraw %}
 ```
 
-Here is what they look like:
+If you want to embed the album or playlist files instead, just change the include above to spotifyAlbum.html or spotifyPlaylist.html, insert the proper id, and you're good to go. Here they are in action:
 
 Song:
 {% include spotifySong.html id="4IFGbY5w97f6FvZNqNfsYb" %}
