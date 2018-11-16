@@ -77,7 +77,7 @@ spotifySong.html
 spotifyAlbum.html
 ```html
 <div class="embed-spotify-list">
-    <iframe src="https://open.spotify.com/embed/album/{% raw %}{{ include.id }}{% endraw %} 
+    <iframe src="https://open.spotify.com/embed/album/{% raw %}{{ include.id }}{% endraw %}" 
         frameborder="0" 
         allowtransparency="true" 
         allow="encrypted-media">

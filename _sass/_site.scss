@@ -27,10 +27,10 @@ body {
   }
 }
 
-
 /*--------------
   Header
   -------------- */
+
 .header {
   padding: 2%;
   margin-bottom: 3em;
@@ -108,6 +108,7 @@ body {
 /*--------------
   Post
   -------------- */
+
 .post {
   /* padding-bottom: 2%; */
 
@@ -203,6 +204,7 @@ body {
   position: relative;
   max-width: 100%;
   padding-bottom: 15%;
+  margin: auto;
 }
 
 .embed-spotify-song iframe, .embed-spotify object, .embed-spotify embed {
@@ -220,6 +222,7 @@ body {
   position: relative;
   max-width: 100%;
   padding-bottom: 51%;
+  margin: auto;
 }
 
 .embed-spotify-list iframe, .embed-spotify object, .embed-spotify embed {
@@ -317,6 +320,7 @@ hr {
 /*--------------
   Tags
   -------------- */
+
 .tag {
   &-index {
     ul {
@@ -387,6 +391,7 @@ hr {
 /*--------------
   Archive
   -------------- */
+
 .archive {
   &-list {
     &-post {
