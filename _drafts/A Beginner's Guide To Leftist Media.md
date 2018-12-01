@@ -5,7 +5,7 @@ date: 2018-11-27 16:00:00 -0500
 tags: [post]
 ---
 
-Are you done with sycophantic, milquetoast centrism? Sick of the moral and economic failures of neoliberalism? Read a little too much Ben Shapiro or Jordan Peterson and trying to climb out of the cynical, reactionary hole you've dug yourself into? Regardless of why you're here, welcome to The Left! If you're looking for a kind and just moral framework that affords human dignity to everyone while still leaving space to be whimsical and full of love, you've come to the right place.
+Are you done with sycophantic, milquetoast centrism? Sick of the moral and economic failures of neoliberalism? Read a little too much Ben Shapiro or Jordan Peterson and trying to climb out of the cynical, reactionary hole you've dug yourself into? Regardless of why you're here, welcome to The Left! If you're looking for a kind and just moral framework that affords human dignity to everyone while still having room to be whimsical and loving, you've come to the right place. I thought it might be valuable to create a quick list of some of the best outlets and creators making leftist media that you should check out.
 
 ### **ContraPoints** | [YouTube](https://www.youtube.com/contrapoints) | [Patreon](https://www.patreon.com/contrapoints)
 
