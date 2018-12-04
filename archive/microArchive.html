@@ -19,7 +19,6 @@ This is my micro blogging archive. If you're looking for the others, you can fin
 
       {% if tag == 'micro' %}
         <div class="archive-list-post">
-          <a href="{{ post.url | prepend: site.baseurl }}">  
             <span class="archive-list-post-title">
               {{ post.content }}
             </span>
@@ -28,7 +27,6 @@ This is my micro blogging archive. If you're looking for the others, you can fin
               &bull;
               <a href="{{ post.url | prepend: site.baseurl }}" class="post-date-perma">
                 Permalink
-              </a>
             </span>
           </a>
         </div> 
