@@ -18,11 +18,11 @@ This is my micro blogging archive. If you're looking for the others, you can fin
     {% for tag in post.tags %}
 
       {% if tag == 'micro' %}
-        <div class="archive-list-post">
-            <span class="archive-list-post-title">
+        <div class="list-post">
+            <span class="list-post-title">
               {{ post.content }}
             </span>
-            <span class="archive-list-post-date">
+            <span class="list-post-date">
               <time>{{ post.date | date_to_string }}</time>
               &bull;
               <a href="{{ post.url | prepend: site.baseurl }}" class="post-date-perma">
