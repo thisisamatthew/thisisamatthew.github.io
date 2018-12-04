@@ -132,7 +132,8 @@ body {
     text-transform: uppercase;
 
     &-perma {
-      color: $base-lighten-color
+      color: $base-lighten-color;
+      text-transform: uppercase;
     }
   }
 
