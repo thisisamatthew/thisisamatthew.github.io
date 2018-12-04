@@ -20,7 +20,7 @@ This is my micro blogging archive. If you're looking for the others, you can fin
       {% if tag == 'micro' %}
         <div class="list-post">
             <div class="list-post-archive">
-              {{ post.content }}
+              <p class="archive-p">{{ post.content }}</p>
             </div>
             <div class="list-post-date">
               <time>{{ post.date | date_to_string }}</time>
