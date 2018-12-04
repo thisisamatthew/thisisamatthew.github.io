@@ -2,7 +2,7 @@
 layout: post
 title: "Apple Cider"
 date: 2018-11-05 14:42:00 -0500
-tags: [post]
+tags: post blog
 ---
 
 I ground up some apples last week and pressed them into cider. It was a deeply satisfying (and delicious) project. I had never made cider before, but I'm lucky to have a friend who grows his own apples and was willing to lend me his press and a little knowledge to help me along. It was really quite easy: Chop up the apples, throw them in a food processor, put them in a barrel, and press them down, and voilà, cider.

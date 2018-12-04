@@ -2,7 +2,7 @@
 layout: post
 title: "Raindrops"
 date: 2018-08-10 16:32:00 -0500
-tags: [post]
+tags: post blog
 ---
 
 Due to the current political climate and my burgeoning leftism, I've been revisiting Saul Alinsky's *Rules for Radicals* this week. During the prologue, he quotes a snippet from a letter John Adams wrote in 1818 that I find useful right now:

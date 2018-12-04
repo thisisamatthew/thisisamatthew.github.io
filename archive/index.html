@@ -10,7 +10,8 @@ title: ""
 
   {% for post in site.posts %}
     {% for tag in post.tags %}
-      {% if tag == 'post' %}
+
+      {% if tag == 'blog' %}
         <div class="archive-list-post">
           <a href="{{ post.url | prepend: site.baseurl }}">  
             <span class="archive-list-post-title">
@@ -22,6 +23,7 @@ title: ""
           </a>
         </div> 
       {% endif %}
+
     {% endfor %}
   {% endfor %}
   </div>

@@ -2,7 +2,7 @@
 layout: post
 title: "Capital, Distance, and 'Sorry to Bother You'"
 date: 2018-11-02 14:17:00 -0500
-tags: [post]
+tags: post blog
 ---
 
 **This post contains major spoilers for the movie 'Sorry to Bother You' from sentence one, so please stop reading now if you don't want the movie spoiled for you.**

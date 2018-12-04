@@ -3,7 +3,7 @@ layout: post
 title: "The Earnestness of New Social Media Apps"
 date: 2018-12-03 17:11:00 -0500
 link: https://kottke.org/18/12/the-fun-is-back-in-social-mediaagain
-tags: [post]
+tags: post link
 ---
 
 Time is a flat circle and so are narratives about new social media platforms being safe havens for earnestness and authenticity. Kottke, [back in 2016](https://kottke.org/16/05/the-unbearable-lightness-of-being-yourself-on-social-media):

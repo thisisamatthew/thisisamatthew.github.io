@@ -2,7 +2,7 @@
 layout: post
 title: "Bread Crumbs"
 date: 2018-04-10 16:47:00 -0500
-tags: [post]
+tags: post blog
 ---
 Execution isn't exactly my strong suit. I'm a process person — planning and tracking is where I excel. Setting up all the minutiae of a project's scope, requirements, etc. really meshes with the way I think. I often find myself more interested in defining & pushing up against the boundaries of how something is meant to function and discussing the plans than actually executing. Creating vision? I'm your guy! Actually doing the work? Well...
 

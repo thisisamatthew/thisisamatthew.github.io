@@ -2,7 +2,7 @@
 layout: post
 title: "Confronting The Numbers"
 date: 2018-11-07 16:43:00 -0500
-tags: [post]
+tags: post blog
 ---
 
 Back in April, [I wrote](http://thisisa.blog/Every-Single-Minute) about how I track my entire life using [Toggl](https://www.toggl.com). I've continued to keep up with it, and with a full 10 months of data, I feel like I have enough to discuss the breakdown, how it's helped me, and where I'm headed with it going forward.
