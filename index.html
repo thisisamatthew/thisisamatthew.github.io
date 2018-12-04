@@ -2,6 +2,97 @@
 layout: default
 ---
 {% for post in paginator.posts %}
+    {% for tag in post.tags %}
+        <div class="list-post">
+            {% if tag == 'link' %}
+                <a href="{{ post.link }}" class="list-post-title">
+                    <div class="list-post-title">
+                        {{ post.title }} &raquo;
+                            </a>
+                        </span>
+                    </div>
+                </a>
+
+                <div class="list-post-date">
+                    <time class="list-post-date">
+                        {{ post.date | date_to_string }}
+                    </time>
+                    
+                    &bull;
+                    
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="list-post-perma">
+                        Permalink
+                    </a>                                     
+                </div>
+                
+                    {% if post.content %}
+                        <div class="list-post-desc">
+                            {{ post.content }}
+                        </div>
+                    {% endif %}
+            {% endif %}
+
+            {% if tag == 'blog' %}
+                <div class="list-post-title">
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="list-post-title">
+                                {{ post.title }}
+                        </a>
+                </div>
+
+                <div class="list-post-date">
+                    <time class="list-post-date">
+                        {{ post.date | date_to_string }}
+                    </time>
+                </div>
+
+                {% if post.content %}
+                    <div class="list-post-desc">
+                        {{ post.content }}
+                    </div>
+                {% endif %}
+            {% endif %}
+
+            {% if tag == 'photo' %}
+                {% if post.content %}
+                    <div class="list-post-desc">
+                        {{ post.content | remove: '<p>' | remove: '</p>' }}<br>
+                    </div>
+                {% endif %}
+
+                <div class="list-post-date">
+                        <time class="list-post-date">
+                            {{ post.date | date_to_string }}
+                        </time>
+                        
+                        &bull;
+                        
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="list-post-perma">
+                            Permalink
+                        </a>                                     
+                </div>
+            {% endif %}
+
+            {% if tag == 'micro' %}
+                {% if post.content %}
+                    <div class="list-post-desc">
+                        {{ post.content | remove: '<p>' | remove: '</p>' }}<br>
+                    </div>
+                {% endif %}
+
+                <div class="list-post-date">
+                        <time class="list-post-date">
+                            {{ post.date | date_to_string }}
+                        </time>
+                        
+                        &bull;
+                        
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="list-post-perma">
+                            Permalink
+                        </a>                                     
+                </div>
+            {% endif %}
+        </div>
+<!-- ******ORIGINAL*****
     <div class="list-post">
         {% if post.link %}
             <a href="{{ post.link }}" class="list-post-title">
@@ -36,8 +127,11 @@ layout: default
             </div>
         {% endif %}
     </div>
-  <hr/>
-  <div class="bottom-space"></div>
+    -->
+
+
+<hr/>
+<div class="bottom-space"></div>
 {% endfor %}
 
   <!-- Pagination links -->
