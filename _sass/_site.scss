@@ -264,7 +264,12 @@ body {
     &-desc {
       color: $base-color;
       margin-bottom: .25rem;
-      font-size :1rem;
+      font-size: 1rem;
+    }
+    &-archive {
+      color: $base-color;
+      margin-bottom: 0rem;
+      font-size: 1rem;
     }
   }
 
