@@ -93,44 +93,6 @@ layout: default
             {% endif %}
         </div>
     {% endfor %}
-<!-- ******ORIGINAL*****
-    <div class="list-post">
-        {% if post.link %}
-            <a href="{{ post.link }}" class="list-post-title">
-                <div class="list-post-title">
-                    {{ post.title }} &raquo;
-                        </a>
-                    </span>
-                </div>
-            </a>
-        {% else %}
-        <div class="list-post-title">
-            <a href="{{ post.url | prepend: site.baseurl }}" class="list-post-title">
-                    {{ post.title }}
-            </a>
-        </div>
-        {% endif %}
-        
-        <div class="list-post-date">
-            <time class="list-post-date">{{ post.date | date_to_string }}</time>
-            {% if post.link %}
-            &bull;
-            <a href="{{ post.url | prepend: site.baseurl }}" class="list-post-perma">
-                Permalink
-            </a>
-            {% endif %}
-                                            
-        </div>
-    
-        {% if post.content %}
-            <div class="list-post-desc">
-                {{ post.content }}
-            </div>
-        {% endif %}
-    </div>
-    -->
-
-
 <hr/>
 <div class="bottom-space"></div>
 {% endfor %}
