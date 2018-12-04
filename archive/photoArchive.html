@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Photo Archive"
 permalink: /archive/photo/
 ---
 
@@ -12,27 +12,24 @@ This is my photo blogging archive. If you're looking for the others, you can fin
 <br>
 
 <div class="archive">
-  <div class="archive-list">
-
-  {% for post in site.posts %}
-    {% for tag in post.tags %}
-
-      {% if tag == 'photo' %}
-      <div class="list-post">
-        <span>
-          {{ post.content }}
-        </span>
-        <span class="list-post-date">
-          <time>{{ post.date | date_to_string }}</time>
-          &bull;
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-date-perma">
-            Permalink
-        </span>
-      </a>
-    </div>  
-      {% endif %}
-
-    {% endfor %}
-  {% endfor %}
-  </div>
-</div>
+    <div class="archive-list">
+        {% for post in site.posts %}
+            {% for tag in post.tags %}
+                {% if tag == 'photo' %}
+                    <div class="list-post">
+                        <span>
+                            {{ post.content }}
+                        </span>
+                        <span class="list-post-date">
+                            <time>{{ post.date | date_to_string }}</time>
+                            &bull;
+                            <a href="{{ post.url | prepend: site.baseurl }}" class="post-date-perma">
+                                Permalink
+                            </a>
+                        </span>
+                    </div> 
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+    </div>
