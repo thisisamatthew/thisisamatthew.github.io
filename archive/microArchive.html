@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Link Archive"
-permalink: /archive/link/
+title: "Micro Archive"
+permalink: /archive/micro/
 ---
 
-This is my link blogging archive. If you're looking for the others, you can find them here:<br>
+This is my micro blogging archive. If you're looking for the others, you can find them here:<br>
 <br>
 <a href="/archive">Blogging Archive</a><br>
 <a href="/archive/photo">Photo Archive<a><br>
-<a href="/archive/micro">Micro Archive</a><br>
+<a href="/archive/link">Link Archive</a><br>
 <br>
 
 <div class="archive">
@@ -17,11 +17,11 @@ This is my link blogging archive. If you're looking for the others, you can find
   {% for post in site.posts %}
     {% for tag in post.tags %}
 
-      {% if tag == 'link' %}
+      {% if tag == 'micro' %}
         <div class="archive-list-post">
           <a href="{{ post.url | prepend: site.baseurl }}">  
             <span class="archive-list-post-title">
-              {{ post.title }}
+              {{ post.content }}
             </span>
             <span class="archive-list-post-date">
               <time>| {{ post.date | date_to_string }}</time>
