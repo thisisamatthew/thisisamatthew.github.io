@@ -24,7 +24,11 @@ This is my micro blogging archive. If you're looking for the others, you can fin
               {{ post.content }}
             </span>
             <span class="archive-list-post-date">
-              <time>| {{ post.date | date_to_string }}</time>
+              <time>{{ post.date | date_to_string }}</time>
+              &bull;
+              <a href="{{ post.url | prepend: site.baseurl }}" class="post-date-perma">
+                Permalink
+              </a>
             </span>
           </a>
         </div> 
