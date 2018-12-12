@@ -3,7 +3,6 @@ layout: default
 ---
 {% for post in paginator.posts %}
     {% for tag in post.tags %}
-        <div class="list-post">
             {% if tag == 'link' %}
                 <a href="{{ post.link }}" class="list-post-title">
                     <div class="list-post-title">
@@ -91,7 +90,6 @@ layout: default
                         </a>                                     
                 </div>
             {% endif %}
-        </div>
     {% endfor %}
 <hr/>
 <div class="bottom-space"></div>
