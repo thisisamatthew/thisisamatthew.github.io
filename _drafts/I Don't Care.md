@@ -1,7 +1,0 @@
-I grew up in corners of the internet obsessed with perfection. There was a lot of talk of having a critical eye and being a discerning consumer who cared about what they bought
-
- A lot of this was passed off as a critical eye and being a scrutizing or selective person who had to have *juuuuust* the right object. Whether it was an app, a record table, a microphone, a headphone amp, a keyboard, a movie's finer plot details, or really anything at all, it was all to closely examined under a watchful eye. It always made me feel like I cared about getting something *just right*. But one of my favorite things to happen in recent years is that I realized I don't have to care.
-
-And now I'm convinced not caring is one of the most important things anyone can do for themselves.
-
-Of course I don't mean that wholesale, but I do think in the hyper-instagrammafied world of objects and media, it's okay to find something that just works for you and stop worrying so much about it. I own several multi-hundred dollar keyboards, and I do indeed use and love them, but when someone at work asks me for a keyboard recommendation, I usually point them to a [Ducky One 2 Skyline](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=3485), tell them to get Browns for the switches and not to think too hard about it. They always come back happy. Most people asking don't need a spiel on actuation force and key moldings.
