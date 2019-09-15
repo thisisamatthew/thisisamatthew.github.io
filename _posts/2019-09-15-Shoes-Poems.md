@@ -11,23 +11,22 @@ Leather for the bad
 Weather, take me home, soft like  
 A feather, now rest  
 
-
+  
 Tangle untangle  
 Chasing lace, these fingers dance  
 Daily routine trance  
 
-
+  
 With me all these years  
 Every crevice, a story  
 Dad's boots fit me now  
 
-
+  
 Broken sole; patch me  
 Let me keep you safe and warm  
 So much left to give  
 
- 
+   
 Early morning rise  
 Freshly oiled and ready  
-For a long day's work  
-
+For a long day's work
