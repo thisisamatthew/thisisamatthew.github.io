@@ -40,6 +40,6 @@ I've been using and learning git a bunch lady, so I started jotting down some of
 
 * Show your commits, but pretty
 
-**git config --global --edit**
+**git config \-\-global \-\-edit**
 
 * open your .gitconfig file in yoru C:\users\user folder in a text editor so you can see and update all your config settings. If you append --local instead of --global, it will open the config file for the specific branch you're in.
