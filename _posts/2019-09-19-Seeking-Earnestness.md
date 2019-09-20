@@ -6,7 +6,7 @@ link: https://www.polygon.com/tv/2019/9/17/20870279/the-boys-comics-history-amaz
 tags: post link
 ---
 
-The AV Club [on Amazon's *The Boys*](https://www.polygon.com/tv/2019/9/17/20870279/the-boys-comics-history-amazon-starlight):
+The AV Club on Amazon's *The Boys*:
 
 > There is a rise in the desire and nostalgia for characters with good intentions that embrace passions and dreams rather than cynicism, because many of us want to connect with earnest emotion and unapologetic ideals to counter the weight of the world.
 
