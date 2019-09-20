@@ -2,7 +2,8 @@
 layout: post
 title: "Earnestness"
 date: 2019-09-19 17:00:00 -0500
-tags: post blog
+link: https://www.polygon.com/tv/2019/9/17/20870279/the-boys-comics-history-amazon-starlight
+tags: post link
 ---
 
 The AV Club [on Amazon's *The Boys*](https://www.polygon.com/tv/2019/9/17/20870279/the-boys-comics-history-amazon-starlight):
