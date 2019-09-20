@@ -36,7 +36,7 @@ I've been using and learning git a bunch lady, so I started jotting down some of
 
 * apply the stash to your current branch. If you don't specify a stash, it will assume the most recent.
 
-**git log --oneline --decorate --graph --all**
+**git log \-\-oneline \-\-decorate \-\-graph \-\-all**
 
 * Show your commits, but pretty
 
