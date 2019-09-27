@@ -3,9 +3,8 @@ layout: post
 title: "Singular "They" Is a 600 Year Old Word and People Upset about the Gender Neutral Usage Being Added to the Dictionary Are Grumpy Dingdongs"
 date: 2019-09-27 17:21:00 -0500
 tags: post blog
----
 
-Singular "they" is a 600 year old word and people upset about the gender neutral usage being added to the dictionary are grumpy dingdongs.
+---
 
 When Merriam-Webster added the use of they as a gender-neutral, singular pronoun to the dictionary recently, a whole bunch of dingdongs got bent out of shape pretending they care and know about language. King Dingdong himself, Ben Shapiro, went on a lengthy rant about it that concluded "once and for all that logic has gone out the window" because of this decision.
 
