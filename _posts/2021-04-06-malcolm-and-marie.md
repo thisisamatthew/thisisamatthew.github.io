@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Malcom & Marie is a mess"
-date: 2021-04-06 17:15:00 -0500
+date: 2021-04-06 19:15:00 -0500
 tags: post blog
 ---
 *I initially published this on [my Letterboxd profile](https://letterboxd.com/matrocksteady/) when the movie premiered. Felt like it was worth bringing over here for safe keeping. Follow me there for more regular film reviews.*
