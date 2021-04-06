@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Malcom & Marie is a mess"
+title: "'Malcom & Marie' is a mess"
 date: 2021-04-06 19:15:00 -0500
 tags: post blog
 ---
