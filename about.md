@@ -4,8 +4,8 @@ title: "About"
 permalink: /about/
 ---
 
-Midwestern mammal. I'm an engineering manager for a software company. I mostly write about how I use technology, media I think has something interesting to say, and leftist politics. I play a lot of Destiny and love riding my bike.
+Midwestern mammal. Professional Software Tester. I mostly write about technology, media, and leftist politics. I watch a lot of movies.
 
-This is my home on the internet, but you can find me on [Twitter](https://www.twitter.com/matrocksteady), [Instagram](https://www.instagram.com/matrocksteady), [Letterboxd](https://www.letterboxd.com/matrocksteady), [GoodReads](https://www.goodreads.com/user/show/67383325-matthew), and [Strava](https://www.strava.com/athletes/9408242).
+You can also find me on [Mastodon](https://www.mastodon.social/@thisisamatthew) and [Letterboxd](https://www.letterboxd.com/thisisamatthew).
 
-If you want to get in touch privately, you can email me at hello@thisisa.blog.
+If you want to get in touch privately, email me at hello@thisisa.blog.
