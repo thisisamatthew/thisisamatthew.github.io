@@ -13,7 +13,7 @@ Even though I hate running.
 And it's miserable every single time. 
 Whatever, I got this.
 
-So of course I'm the type of person who can't do anything without watching 100 YouTube videos about the topic, so I watch all these videos on "How to get started running,"" blah blah blah. And I come across a piece of advice that I've heard before and always sort of scoffed at a bit. One of those "sure, I get it, but I'm not going to do that" type of situations. Not that I thought it was bad, just...not for me! I'm a grown adult who can make my own decisions! Well, turns out that people who do a certain task often and are passionate experts at their craft probably know a thing or two about what to do. And ya know what? The runners were right.
+So of course I'm the type of person who can't do anything without watching 100 YouTube videos about the topic, so I watch all these videos on "How to get started running," blah blah blah. And I come across a piece of advice that I've heard before and always sort of scoffed at a bit. One of those "sure, I get it, but I'm not going to do that" type of situations. Not that I thought it was bad, just...not for me! I'm a grown adult who can make my own decisions! Well, turns out that people who do a certain task often and are passionate experts at their craft probably know a thing or two about what to do. And ya know what? The runners were right.
 
 So here's the piece of advice: *slow down*. Run at a pace where you can hold a comfortable conversation while moving. And even then, maybe still slow down a little bit!
 
