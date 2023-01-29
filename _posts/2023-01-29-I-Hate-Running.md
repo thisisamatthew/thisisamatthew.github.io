@@ -4,7 +4,7 @@ title: "I Hate Running (but the Runners Are Right)"
 date: 2023-01-29 18:30:00 -0500
 tags: post blog
 ---
-I hate running, but as you can see, I'm running right now. And there's really only one thing I hate more than running, and that's other people being right about a thing that I've purposefully ignored and that's what I'm going to tell you about.
+I hate running. And there's really only one thing I hate more than running, and that's other people being right about a thing that I've purposefully ignored and that's what I'm going to tell you about.
 
 See, I have a white collar job and my back and waistline are really unhappy with how little I move. So I've been doing a lot of walking and I'm down 35 pounds. It's been great! But, I felt like maybe I should try to do some exercise that raises my heart rate — ya know, I'm in that moment where I'm feeling motivated! Go me! — and running has a low barrier to entry. It's basically just walking, but faster, right? 
 
