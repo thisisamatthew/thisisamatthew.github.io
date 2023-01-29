@@ -17,6 +17,6 @@ So of course I'm the type of person who can't do anything without watching 100 Y
 
 So here's the piece of advice: *slow down*. Run at a pace where you can hold a comfortable conversation while moving. And even then, maybe still slow down a little bit more!
 
-And gosh dang it, they were right and it's totally working for me. I'm about to finish running 3 miles no problem. Are these miles fast? No. Painfully slow. Does that mean I probably need to work on my ego? Yes, but don't tell anyone.
+And damnit, they were right and it's totally working for me. I've run 3 miles no problem, multiple days in a row. Are these miles fast? No. Painfully slow. Does that mean I probably need to work on my ego? Yes, but don't tell anyone, least of all me.
 
-So yeah, I still hate running, but maybe give slowing down a try and it could be less miserable.
+So, yeah, I still hate running, but maybe give slowing down a try and it could be less miserable.
