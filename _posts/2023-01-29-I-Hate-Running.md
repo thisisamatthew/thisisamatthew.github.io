@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I Hate Running (but the Runners Are Right)"
-date: 2023-01-29 19:30:00 -0500
+date: 2023-01-29 18:30:00 -0500
 tags: post blog
 ---
 I hate running, but as you can see, I'm running right now. And there's really only one thing I hate more than running, and that's other people being right about a thing that I've purposefully ignored and that's what I'm going to tell you about.
