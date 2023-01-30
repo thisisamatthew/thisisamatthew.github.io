@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Brief Take on the Quote Boost Discourse"
-date: 2023-01-30 8:00:00 -0500
+date: 2023-01-30 08:00:00 -0500
 tags: post blog
 ---
 With the big migration to Mastodon, one of the big differences is that Mastodon currently has no official "quote retweet" functionality (in Mastodon terms, this is called a boost, so I will henceforth call these quote boots) This has caused a lot of discourse on the site. Some reasonable, some not, but I thought I'd throw my hat in the ring with a particular view I don't think I've seen on the matter. 
