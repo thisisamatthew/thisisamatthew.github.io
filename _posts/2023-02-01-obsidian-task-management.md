@@ -22,7 +22,7 @@ due today
 ~~~
 ```tasks
 not done
-(due after monday) AND (due before next sunday)
+due before in 7 days
 ```
 ~~~
 
